@@ -43,6 +43,7 @@ ul li {
     display: inline-block;
     text-decoration: none;
     margin: auto 4rem;
+    text-align: center;
 }
 
 /* unvisited link */
