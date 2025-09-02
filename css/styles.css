@@ -75,6 +75,9 @@ a:active {
 
 footer {
   margin-top: 5rem;
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center;    /* Centers content vertically */
 }
 
 /* classes */
@@ -82,12 +85,12 @@ footer {
 /* Dotted border */
 hr.dotted {
   border-top: 3px dotted black;
-  margin-top: 5rem;
+  margin: 3rem auto;
 }
 
 .flex-container {
   display: flex;
   justify-content: center; /* Centers content horizontally */
   align-items: center;    /* Centers content vertically */
-  /* height: 100vh;  Example: to center in the viewport height */
+  text-align: center;
 }
