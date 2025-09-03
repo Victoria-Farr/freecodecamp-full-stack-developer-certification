@@ -81,6 +81,12 @@ footer {
   align-items: center;    /* Centers content vertically */
 }
 
+blockquote {
+  text-align: center;]
+  margin: 0 auto;
+  line-height: 3rem;
+}
+
 /* classes */
 
 /* Dotted border */
