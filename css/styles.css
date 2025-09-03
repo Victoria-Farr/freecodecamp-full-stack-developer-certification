@@ -88,6 +88,10 @@ blockquote {
   line-height: 3rem;
 }
 
+address {
+  font-style: normal;
+}
+
 /* classes */
 
 /* Dotted border */
