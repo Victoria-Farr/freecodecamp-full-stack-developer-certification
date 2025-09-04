@@ -1,0 +1,24 @@
+body {
+  background-color: whitesmoke;
+  font-size: 4rem;
+  font-family: "Instrument Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  color: #37352F;
+  text-decoration: none;
+  background-image: linear-gradient(#F9F5F1, #F9F5F1),
+    linear-gradient(#37352F, #37352F),
+    linear-gradient(#ED0C16, #ED0C16);
+  background-size: 20px 2px, 100% 2px, 0 2px;
+  background-position: calc(20px * -1) 100%, 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 2s linear, background-position 2s linear;
+}
+
+a:hover {
+  background-size: 20px 2px, 0 2px, 100% 2px;
+  background-position: calc(100% + 20px) 100%, 100% 100%, 0 100%;
+}
