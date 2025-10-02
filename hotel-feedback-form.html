@@ -27,6 +27,45 @@
                 <input type="radio" id="no-option" name="hotel-stay">
                 <label for="no-option">No</label>
             </fieldset>
+            <fieldset>
+                <legend>Why did you choose to stay at our hotel? (Check all that apply)</legend>
+                <input type="checkbox" id="ads" name="ads" value="ads">
+                <label for="ads">Social Media Ads</label>
+                <input type="checkbox" id="recommendation" name="recommendation" value="recommendation">
+                <label for="recommendation">Personal Recommendation</label>
+                <input type="checkbox" id="location" name="location" value="location">
+                <label for="location">Location</label>
+                <input type="checkbox" id="reputation" name="reputation" value="reputation" checked>
+                <label for="reputation">Reputation</label>
+                <input type="checkbox" id="price" name="price" value="price">
+                <label for="price">Price</label>
+            </fieldset>
+            <fieldset>
+                <legend>Ratings</legend>
+                <label for="service">How was the service?</label>
+                <select id="service" name="service">
+                    <option value="poor">Poor</option>
+                    <option value="satisfactory">Satisfactory</option>
+                    <option value="good">Good</option>
+                    <option value="very-good">Very Good</option>
+                    <option selected value="excellent">Excellent</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                    <label for="food">How was the food?</label>
+                    <select id="food" name="food">
+                    <option value="poor">Poor</option>
+                    <option value="satisfactory">Satisfactory</option>
+                    <option value="good">Good</option>
+                    <option value="very-good">Very Good</option>
+                    <option selected value="excellent">Excellent</option>
+                    </select>
+            </fieldset>
+            <fieldset>
+                <label for="comments">Other Comments?</label>
+                <textarea id="comments" name="comments" rows="10" cols="30"></textarea>
+            </fieldset>
+            <button type="submit">Submit</button>
         </form>
     </main>
   </body>
